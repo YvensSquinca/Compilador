@@ -2,7 +2,7 @@ import os
 from cx_Freeze import setup, Executable
 
 os.environ['TCL_LIBRARY'] = "C:\\Users\\SEUUSUARIO\\AppData\\Local\\Programs\\Python\\Python36-32\\tcl\\tcl8.6" #Carrega as bibliotecas
-os.environ['TK_LIBRARY'] = "C:\\Users\\DELL\\SEUUSUARIO\\Local\\Programs\\Python\\Python36-32\\tcl\\tk8.6" #Carrega as bibliotecas
+os.environ['TK_LIBRARY'] = "C:\\Users\\SEUUSUARIO\\SEUUSUARIO\\Local\\Programs\\Python\\Python36-32\\tcl\\tk8.6" #Alterar SEUUSUARIO, para o caminho de acordo com sua instalação
 
 setup(
     name = "Programa", #Nome do Programa
